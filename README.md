@@ -1,6 +1,6 @@
 # 📊 NexusIQ – Intelligent Business Decision & Prediction Platform
 
-NexusIQ is an interactive business analytics platform developed using Python, Streamlit, and SQL. It transforms retail transaction data into meaningful business insights through data cleaning, sales analysis, SQL-based queries, and RFM customer segmentation.
+NexusIQ is an interactive business analytics platform developed using Python, Streamlit, and SQL. It transforms raw retail transaction data into meaningful business insights through data cleaning, sales analysis, SQL-based queries, and RFM customer segmentation.
 
 The platform helps businesses understand sales performance, identify valuable customers, analyze purchasing behavior, and make data-driven decisions.
 
@@ -58,12 +58,12 @@ The dashboard displays customer segment distribution, customer metrics, and segm
 
 ## 🛠️ Technologies Used
 
-- **Programming Language:** Python
-- **Dashboard:** Streamlit
-- **Data Processing:** Pandas
-- **Data Visualization:** Plotly
-- **Database:** SQLite
-- **Excel Support:** OpenPyXL
+- Python
+- Streamlit
+- Pandas
+- Plotly
+- SQLite
+- OpenPyXL
 
 ## 📂 Project Structure
 
@@ -75,27 +75,24 @@ NexusIQ/
 ├── README.md
 ├── .gitignore
 │
-└── screenshots/
-    ├── business-overview.png
-    ├── monthly-revenue.png
-    └── customer-segmentation.png
+├── Customer Segmentation Overview.png
+├── Monthly-revenue-analysis.png
+└── SQL-database.png
 ```
-
-The SQLite database (`nexusiq.db`) is generated automatically when the application processes a dataset.
 
 ## 📸 Dashboard Preview
 
-### 1. Business Overview
+### 1. SQL Database & Business Overview
 
-![Business Overview](screenshots/business-overview.png)
+![SQL Database](SQL-database.png)
 
 ### 2. Monthly Revenue Analysis
 
-![Monthly Revenue Analysis](screenshots/monthly-revenue.png)
+![Monthly Revenue Analysis](Monthly-revenue-analysis.png)
 
-### 3. Customer Segmentation
+### 3. Customer Segmentation Overview
 
-![Customer Segmentation](screenshots/customer-segmentation.png)
+![Customer Segmentation Overview](Customer%20Segmentation%20Overview.png)
 
 ## 📊 Dataset
 
